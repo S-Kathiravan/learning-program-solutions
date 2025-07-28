@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  align-items: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.mydiv{
+  align-items: center;
+  text-align: center;
+  color: green;
+  font-size: 20px;
+  /* font-weight: bold; */
+  /* border: #282c34 solid 2px; */
+}
+.tableclass{
+  width: 50%; /* Adjust width as needed */
+  margin: auto; /* This automatically centers the block */
+  text-align: center; /* Centers the h1 text inside the container */
+  font-family: sans-serif;
+}
+table {
+  width: 100%; /* Makes the table take the full width of its container */
+  border-collapse: collapse; /* Merges cell borders for a cleaner look */
+  margin-top: 20px;
+}
+
+/* Style for the table cells (td) */
+td,th {
+  border-style: double;
+  border: 1px do black; /* Adds a 1px solid black border to each cell */
+  padding: 10px; /* Adds space inside each cell */
+  font-size: 1.1em;
+  color: #006400;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
