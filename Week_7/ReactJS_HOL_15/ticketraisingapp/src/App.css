@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  align-items: center;
+}
+
+form label {
+  text-align: right;
+  font-weight: bold;
+}
+
+form div {
+  display: contents; 
+}
+
+input[type="text"],
+textarea {
+  padding: 8px;
+  width: 200px;
+}
+
+button {
+  grid-column: 2; 
+  justify-self: start; 
+  padding: 10px 20px;
+  cursor: pointer;
+}

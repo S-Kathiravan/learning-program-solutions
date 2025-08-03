@@ -1,0 +1,61 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form-container {
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+h2 {
+  color: red;
+  text-align: center;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+form div {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  align-items: center;
+}
+
+form label {
+  font-weight: bold;
+  text-align: right;
+  padding-right: 10px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+  grid-column: 2; 
+  padding-top: 4px;
+}
