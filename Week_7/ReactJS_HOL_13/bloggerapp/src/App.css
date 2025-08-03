@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  margin: 20px;
+}
+
+.navbar button {
+  margin: 0 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.section {
+  flex-basis: 30%;
+  border-left: 2px solid green;
+  padding: 0 20px;
+}
+
+.section:first-child {
+  border-left: none;
+}
